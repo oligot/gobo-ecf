@@ -17,11 +17,11 @@
 			</condition>
 		</library>
 		<library name="gobo-kernel" location="$GOBO\library\kernel\library.ecf"/>
-		<library name="gobo-pattern" location="$GOBO\library\pattern\gobo-pattern.ecf"/>
-		<library name="gobo-structure" location="$GOBO\library\structure\gobo-structure.ecf"/>
-		<library name="gobo-time" location="$GOBO\library\time\gobo-time.ecf"/>
-		<library name="gobo-math" location="$GOBO\library\math\gobo-math.ecf"/>
-		<cluster name="gobo-core" location=".\" recursive="false">
+		<library name="gobo-pattern" location=".\gobo-pattern.ecf"/>
+		<library name="gobo-structure" location=".\gobo-structure.ecf"/>
+		<library name="gobo-time" location=".\gobo-time.ecf"/>
+		<library name="gobo-math" location=".\gobo-math.ecf"/>
+		<cluster name="gobo-core" location="$GOBO\library\" recursive="false">
 			<file_rule>
 				<exclude>/EIFGENs$</exclude>
 				<exclude>/CVS$</exclude>

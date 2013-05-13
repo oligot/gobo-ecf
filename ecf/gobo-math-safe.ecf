@@ -16,7 +16,7 @@
 				<custom name="GOBO_EIFFEL" value="ge"/>
 			</condition>
 		</library>
-		<library name="gobo-kernel-safe" location="$GOBO\library\kernel\library-safe.ecf"/>
+		<library name="gobo-kernel-safe" location="$GOBO\library\kernel\library.ecf"/>
 		<cluster name="gobo-math" location="$GOBO\library\math\decimal\" recursive="true">
 			<file_rule>
 				<exclude>/EIFGENs$</exclude>
