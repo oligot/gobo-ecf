@@ -16,7 +16,7 @@
 				<custom name="GOBO_EIFFEL" value="ge"/>
 			</condition>
 		</library>
-		<library name="gobo-kernel" location="$GOBO\library\kernel\library.ecf"/>
+		<library name="gobo-kernel" location=".\gobo-kernel.ecf"/>
 		<library name="gobo-pattern" location=".\gobo-pattern.ecf"/>
 		<library name="gobo-structure" location=".\gobo-structure.ecf"/>
 		<library name="gobo-time" location=".\gobo-time.ecf"/>

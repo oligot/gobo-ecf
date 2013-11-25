@@ -16,7 +16,7 @@
 				<custom name="GOBO_EIFFEL" value="ge"/>
 			</condition>
 		</library>
-		<library name="gobo-kernel" location="$GOBO\library\kernel\library.ecf"/>
+		<library name="gobo-kernel" location=".\gobo-kernel.ecf"/>
 		<cluster name="gobo-pattern" location="$GOBO\library\pattern\" recursive="true">
 			<file_rule>
 				<exclude>/EIFGENs$</exclude>
